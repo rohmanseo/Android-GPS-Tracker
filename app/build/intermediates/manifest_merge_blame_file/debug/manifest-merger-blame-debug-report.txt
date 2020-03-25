@@ -1,0 +1,84 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!--
+3  Copyright 2017 Google Inc.
+4
+5  Licensed under the Apache License, Version 2.0 (the "License");
+6  you may not use this file except in compliance with the License.
+7  You may obtain a copy of the License at
+8
+9       http://www.apache.org/licenses/LICENSE-2.0
+10
+11  Unless required by applicable law or agreed to in writing, software
+12  distributed under the License is distributed on an "AS IS" BASIS,
+13  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+14  See the License for the specific language governing permissions and
+15  limitations under the License.
+16-->
+17<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+18    package="com.example.android.walkmyandroid"
+19    android:versionCode="1"
+20    android:versionName="1.0" >
+21
+22    <uses-sdk
+23        android:minSdkVersion="15"
+23-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml
+24        android:targetSdkVersion="26" />
+24-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml
+25
+26    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+26-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:19:5-78
+26-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:19:22-76
+27
+28    <application
+28-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:21:5-37:19
+29        android:allowBackup="true"
+29-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:22:9-35
+30        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+30-->[androidx.core:core:1.2.0] C:\Users\Rohman\.gradle\caches\transforms-2\files-2.1\d4e2c990a93746e8625fbcf721f3c4e7\core-1.2.0\AndroidManifest.xml:24:18-86
+31        android:debuggable="true"
+32        android:icon="@mipmap/ic_launcher"
+32-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:23:9-43
+33        android:label="@string/app_name"
+33-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:24:9-41
+34        android:roundIcon="@mipmap/ic_launcher_round"
+34-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:25:9-54
+35        android:supportsRtl="true"
+35-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:26:9-35
+36        android:testOnly="true"
+37        android:theme="@style/AppTheme" >
+37-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:27:9-40
+38        <activity
+38-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:28:9-35:20
+39            android:name="com.example.android.walkmyandroid.activity.MainActivity"
+39-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:28:19-56
+40            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden" >
+40-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:29:13-87
+41            <intent-filter>
+41-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:30:13-34:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:31:17-69
+42-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:31:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:33:17-77
+44-->C:\Users\Rohman\AndroidStudioProjects\android-advanced-starter-apps-master\WalkMyAndroid-Starter\app\src\main\AndroidManifest.xml:33:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rohman\.gradle\caches\transforms-2\files-2.1\1b00a2123395a4e6761a26bb6de64b15\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+48            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+48-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rohman\.gradle\caches\transforms-2\files-2.1\1b00a2123395a4e6761a26bb6de64b15\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+49            android:exported="false"
+49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rohman\.gradle\caches\transforms-2\files-2.1\1b00a2123395a4e6761a26bb6de64b15\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+50            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rohman\.gradle\caches\transforms-2\files-2.1\1b00a2123395a4e6761a26bb6de64b15\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+51
+52        <meta-data
+52-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rohman\.gradle\caches\transforms-2\files-2.1\c4ad2835fa146deb732b8c5b0e98e5c0\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+53            android:name="com.google.android.gms.version"
+53-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rohman\.gradle\caches\transforms-2\files-2.1\c4ad2835fa146deb732b8c5b0e98e5c0\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+54            android:value="@integer/google_play_services_version" />
+54-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rohman\.gradle\caches\transforms-2\files-2.1\c4ad2835fa146deb732b8c5b0e98e5c0\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+55    </application>
+56
+57</manifest>
